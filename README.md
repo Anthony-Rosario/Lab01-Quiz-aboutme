@@ -1,43 +1,42 @@
 # Lab01-Quiz-aboutme
 
 OUTCOMES:
-* There should be an alert
-* There should be a confirm so the user can opt out
-* There should eb a first name and last and  prompt
-* There should be 3 question prompts
-* the user should be able to see their results after taking the quiz
+* The user should be alerted
+* The user should have the option to opt out
+* There should be a first and last name prompt
+* The user should be prompted with 3 questions
+* The user should be able to see their results after taking the quiz
 
 
 HTML Setup:
-* Some information, presented nicely with an imaghe and some list items.
+* information about the quiz, styled well. 
     - Why? So the user knows what to do.
 * A button
-    - why? to launch the quiz
-* A secret, empty div
-    - Why? to inject.display the results to the user
+    - why? to prompt the quiz
+* A results section
+    - Why? to display the results of the quiz
 
 
 1. Get DOM Elements
     - Button
-    - Secret Div
+    - Results container
 2. Add Event Listeners
     - Button
-3. Respond to user input -- in most apps, the real work happens in the cool zone
+3. Respond to user input 
     - Launch an alert
-        - if the suer says no, nothing else happens
-        - if the user says yes, launch the series of prompts
-    - Launch a first anme prompt
-        - store the output to display later
+        - if the user says no, the quiz ends
+        - if the user says yes, launch the series of questions
+    - Launch a first name prompt
+        - create a variable to store the output
     - Launch last name prompt
-        - store output to display later
-    - launch quiz prompts with specific yes/no questions
-        - how do we evlaute the answers?
+        - create a variable to store the output
+    - launch a series of quiz questions in yes/no format
         - what counts as a yes?
-            - Yes
-            - Yeah
-            - Yep
-            - yes
-            - yeah
-            - y
-            - Y
-            - anything that starts with y
+            * Yes
+            * yes
+            * yeah
+        - What counts as a no?
+            * No
+            * no
+            * nah
+            
