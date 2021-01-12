@@ -39,4 +39,8 @@ HTML Setup:
             * No
             * no
             * nah
+4. Dispaly user input via a 'special box'
+    - Display input content
+        * style that content according to right or wrong answers
+5. Display precentages of right or wrong answers input by users
             
