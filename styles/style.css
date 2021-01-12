@@ -82,6 +82,7 @@ header {
     margin: 4rem;
     font-family: 'East Sea Dokdo';
     font-size: 25px;
+    text-shadow: 2px -1px 16px rgba(235, 235, 235, 1);
 }
 
 
@@ -100,6 +101,7 @@ li {
     display: list-item;
     font-family: 'East Sea Dokdo';
     font-size: 25px;
+    text-shadow: 2px -1px 16px rgba(235, 235, 235, 1);
 }
 
 .button {
@@ -137,13 +139,13 @@ content {
 
 
 .light-green {
-    background-color: #8AEA92;
+    color: #8AEA92;
 }
 
 .green-sheen {
-    background-color: #80ADA0;
+    color: #80ADA0;
 }
 
 .dark-purple {
-    background-color: #33202A;
+    color: #33202A;
 }

@@ -5,3 +5,4 @@ export function countsAsYes(answer) {
 export function percentage(correctAnswers, totalanswers) {
     return Math.round((correctAnswers / totalanswers) * 100);
 }
+
