@@ -1,7 +1,9 @@
-import { countsAsYes } from './utils.js';
+import { countsAsYes,percentage } from './utils.js';
+
 
 const button1 = document.getElementById('quiz-button');
 const storyBox = document.getElementById('story-results');
+
 
 
 button1.addEventListener('click', () => {
@@ -12,6 +14,7 @@ button1.addEventListener('click', () => {
     if (!confirmation) return;
 
     let rightAnswers = 0;
+    const totalAnswers = 2;
 
     const firstName = prompt('What be yee First Name?');
     const lastName = prompt('What be yer last');
@@ -21,9 +24,16 @@ button1.addEventListener('click', () => {
 
     const secondAnswer = prompt('Was the booty hidden in the Statue of Liberty?');
 
+
+
     if (!countsAsYes(secondAnswer)) rightAnswers++;
 
-    const resultString = `Hooray ${firstName} ${lastName} yee got ${rightAnswers} correct!`;
+    const resultString = `Hooray ${firstName} ${lastName} yee got ${percentage(rightAnswers, totalAnswers)} correct!`;
 
-    storyBox.textContent = resultString;
+    storyBox.textContent = (resultString);
+
+
 });
+
+
+
