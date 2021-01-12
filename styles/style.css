@@ -133,3 +133,16 @@ li {
 content {
     width: 80%;
 }
+
+
+.light-green {
+    background-color: #8AEA92;
+}
+
+.green-sheen {
+    background-color: #80ADA0;
+}
+
+.dark-purple {
+    background-color: #33202A;
+}

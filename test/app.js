@@ -32,6 +32,18 @@ button1.addEventListener('click', () => {
 
     const resultString = `Hooray ${firstName} ${lastName} yee got ${rightAnswers} correct! That be ${percentage(rightAnswers, totalAnswers)} percent`;
 
+    if (rightAnswers === 3){
+        storyBox.classList.add('light-green');
+    }
+    
+    else if (rightAnswers === 2){
+        storyBox.classList.add('green-sheen');
+    }
+    
+    else {
+        storyBox.classList.add('dark-purple');
+    }
+
     storyBox.textContent = (resultString);
 
 
