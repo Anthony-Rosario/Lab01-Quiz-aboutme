@@ -1,25 +1,17 @@
 
-body {
-    /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
-    /* --color1: hsla(349, 69%, 76%, 1);
-    --color2: hsla(207, 67%, 44%, 1);
-    --color3: hsla(200, 61%, 56%, 1);
-    --color4: hsla(187, 41%, 94%, 1);
-    --color5: hsla(170, 28%, 95%, 1); */
-/* 
-    /* --color1: hsla(45, 86%, 83%, 1);
-    --color2: hsla(135, 65%, 98%, 1);
-    --color3: hsla(315, 37%, 86%, 1);
-    --color4: hsla(45, 73%, 98%, 1);
-    --color5: hsla(224, 40%, 79%, 1); */
+body, html {
+    
     
     --header-height: 80px;
     --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'carnivalee_freakshowregular';
     background-color: var(--color2);
+    height: auto;
+    background-color: rgb(35, 165, 79);
+    
 }
 
 main {
@@ -28,6 +20,9 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    height: 100%;
+    width: auto;
+    
 }
 
 section {
@@ -43,7 +38,9 @@ section {
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
+    
 }
+
 
 header {
     display: flex;
@@ -51,6 +48,15 @@ header {
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+}
+
+
+.first-header, .second-header, .third-header {
+    border-radius: 150px 150px 0 0;
+    width: 475px;
+    justify-content: center;
+    background-color: black;
+    color: rgb(151, 33, 33);
 }
 
 footer {
@@ -61,17 +67,29 @@ footer {
 }
 
 
-h2 {
-    font-size: 1.8rem;
-    font-weight: bold;
+h1 {
+    border-radius: 150px 150px 0 0;
+    border-color: black;
+    
 }
 
 .gutter-right {
-    margin-right: 20px;
+    margin-right: 900px;
+}
+
+li {
+    display: list-item;
+}
+
+button {
+    border-radius: 10px;
+    border: 1px dotted black;
 }
 
 .main-logo {
     animation: pulse 5s infinite ease-in-out;
+    height: 100px;
+    width: 100px;
 }
 
 header img {
@@ -117,3 +135,21 @@ footer {
     }
 
   }
+
+  @font-face {
+    font-family: 'carnivalee_freakshowregular';
+    src: url('carnevalee_freakshow-webfont.woff2') format('woff2'),
+         url('carnevalee_freakshow-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'treasuremapmedium';
+    src: url('treasuremap-nrxz0-webfont.woff2') format('woff2'),
+         url('treasuremap-nrxz0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
