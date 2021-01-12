@@ -5,20 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+    <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
     <title>Anthony's Quiz!?!</title>
 </head>
 
 <body>
     <header class="img-header">
-        <h1>A quiz about Redbeard!</h1>
+        <h1 id="specialh1">A quiz about Redbeard!</h1>
         
         
     </header>
-    <img class="img-flag" src="assets/pirate-flag-115309935202mqbwnkbxd.png" style="transform:rotate(35deg)"/>
+    <img class="img-flag" src="assets/pirate-flag-115309935202mqbwnkbxd.png"/>
     <main>
         <header class="first-header">
             <h1 class="header">Redbeard: The Pirates, Pirate</h1>
@@ -27,7 +29,7 @@
             <ul>
                 <li class="list">This be a tale of Redbeard, greatest pirate whom ever lived.</li>
                 <li class="list">His reign spanned what seemed centuries on the open water.</li>
-                <li class="list">The most ferocious and feared marauders of his time</li>
+                <li class="list">The most ferocious and feared marauder of his time.</li>
                 <li class="list">After a life of plundering, his treasures were stashed on a tropical island.</li>
                 <li class="list">The feature film Pirates of the Caribbean is loosly based off his life.</li>
             </ul>
@@ -36,7 +38,7 @@
             <header class="second-header">
                 <h1 class="header">Great Pirate Movies</h1>
             </header>
-            <ol>
+            <ol class="ol-margin">
                 <li class="list list-item1">Hook!</li>
                 <li class="list list-item2">Muppet Treasure Island</li>
                 <li class="list list-item3">The Goonies</li>
@@ -49,10 +51,10 @@
             <header class="third-header">
                 <h1>How to Load a Flinktlock Pistol</h1>
             </header>
-            <content>Gather primer, black powder, ball, patch, patch lube, flint and ramrod. The patch should be made of linen or cotton and lubricated with the patch lube. Load the flint into the cock. With the cock half-cocked, load the prescribed amount of black powder down the muzzle and tamp down. The amount varies with the gun, so you will have to do a little research. Wrap the ball in a patch and put in the muzzle. Tamp down the powder and ball with the ramrod. Prime the flash pan with a small amount of the primer, usually less than a third of a pan. The primer is a finely ground gunpowder.</content>
+            <content class="flintlock">Gather primer, black powder, ball, patch, patch lube, flint and ramrod. The patch should be made of linen or cotton and lubricated with the patch lube. Load the flint into the cock. With the cock half-cocked, load the prescribed amount of black powder down the muzzle and tamp down. The amount varies with the gun, so you will have to do a little research. Wrap the ball in a patch and put in the muzzle. Tamp down the powder and ball with the ramrod. Prime the flash pan with a small amount of the primer, usually less than a third of a pan. The primer is a finely ground gunpowder.</content>
         </section>
         <button id="quiz-button">Take Quiz</button>
-        <container id="story-results"></container>
+        <container id="story-results" class="story"></container>
     </main>
     <footer>
         

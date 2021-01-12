@@ -6,7 +6,8 @@ body, html {
     --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
     --gutter: 30px;
     --footer-height: 25px;
-    
+    margin: 0;
+    padding: 0;
     
     background-color: var(--color2);
     height: auto;
@@ -47,19 +48,31 @@ header {
     justify-content: center;
     background-color: var(--color3);
     height: var(--header-height);
-    
-    
     background-color: #8E4A49;
+    font-size: large;
+}
+
+#specialh1 {
+    font-size: 35px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'treasuremapmedium';
 }
 
 .img-flag {
     display: flex;
-    margin-left: 1650px;
+    justify-content: center;
+    margin-left: 890px;
     height: 150px;
+    bottom: 15px;
+    
     
 }
 
-
+#story-results {
+    font-family: 'treasuremapmedium';
+    margin: 1rem;
+}
 
 
 .first-header, .second-header, .third-header {
@@ -68,6 +81,20 @@ header {
     justify-content: center;
     background-color: black;
     color: rgb(151, 33, 33);
+    font-family: 'treasuremapmedium';
+    font-size: small;
+}
+
+.flintlock {
+    margin: 4rem;
+    font-family: 'East Sea Dokdo';
+    font-size: 25px;
+
+}
+
+
+.ol-margin {
+    margin: 4rem;
 }
 
 footer {
@@ -79,8 +106,9 @@ footer {
 
 
 h1 {
-    border-radius: 150px 150px 0 0;
-    border-color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
     
 }
 
@@ -90,6 +118,8 @@ h1 {
 
 li {
     display: list-item;
+    font-family: 'East Sea Dokdo';
+    font-size: 25px;
 }
 
 button {
@@ -147,20 +177,4 @@ footer {
 
   }
 
-  @font-face {
-    font-family: 'carnivalee_freakshowregular';
-    src: url('carnevalee_freakshow-webfont.woff2') format('woff2'),
-         url('carnevalee_freakshow-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'treasuremapmedium';
-    src: url('treasuremap-nrxz0-webfont.woff2') format('woff2'),
-         url('treasuremap-nrxz0-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
+  
