@@ -34,6 +34,8 @@ button1.addEventListener('click', () => {
 
     if (rightAnswers === 3){
         storyBox.classList.add('light-green');
+        storyBox.style.fontFamily = 'East Sea Dokdo';
+        storyBox.style.fontSize = "medium";
     }
     
     else if (rightAnswers === 2){
