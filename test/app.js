@@ -26,7 +26,7 @@ button1.addEventListener('click', () => {
 
     if (!countsAsYes(secondAnswer)) rightAnswers++;
 
-    const thirdAnswer = prompt('Was Hook consered the greatest pirate movie by RedBeard?');
+    const thirdAnswer = prompt('Was Hook considered the greatest pirate movie by RedBeard?');
 
     if (countsAsYes(thirdAnswer)) rightAnswers++;
 
