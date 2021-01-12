@@ -67,7 +67,7 @@ header {
     filter: alpha(Opacity=90);
     opacity: 0.9;
     mix-blend-mode: screen;
-    animation: shadow-pop-br 0.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    animation: shadow-pop-br 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
     margin-top: 1rem;
 }
 
@@ -96,6 +96,7 @@ header {
     -moz-border-radius-bottomleft: 90px;
     -webkit-border-bottom-left-radius: 90px;
     border-bottom-left-radius: 90px;
+    animation: shadow-pop-br 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 
 .flintlock {
