@@ -1,18 +1,13 @@
-
 body, html {
-    
-    
     --header-height: 80px;
     --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
     --gutter: 30px;
     --footer-height: 25px;
     margin: 0;
     padding: 0;
-    
     background-color: var(--color2);
     height: auto;
     background-color: rgb(255, 255, 255);
-    
 }
 
 main {
@@ -39,7 +34,6 @@ section {
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
-    
 }
 
 
@@ -65,8 +59,6 @@ header {
     margin-left: 890px;
     height: 150px;
     bottom: 15px;
-    
-    
 }
 
 #story-results {
@@ -89,7 +81,6 @@ header {
     margin: 4rem;
     font-family: 'East Sea Dokdo';
     font-size: 25px;
-
 }
 
 
@@ -97,23 +88,11 @@ header {
     margin: 4rem;
 }
 
-footer {
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    box-shadow: var(--shadow);
-}
-
 
 h1 {
     display: flex;
     flex-direction: column;
     font-size: medium;
-    
-}
-
-.gutter-right {
-    margin-right: 900px;
 }
 
 li {
@@ -127,54 +106,7 @@ button {
     border: 1px dotted black;
 }
 
-.main-logo {
-    animation: pulse 5s infinite ease-in-out;
-    height: 100px;
-    width: 100px;
-}
-
-header img {
-    height: var(--header-height);
-}
-
-
 
 content {
     width: 80%;
 }
-
-p {
-    margin: var(--gutter);
-}
-  
-footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    height: var(--footer-height);
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    box-shadow: var(--shadow);
-}
-  
-  @keyframes pulse {
-    20% {
-      transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
-    }
-
-    40% {
-        transform: rotate3d(10, 10, -10, 50deg) scale(1);
-    }
-
-    60% {
-        transform: rotate3d(-10, 10, 10, 50deg) scale(1.2);
-      }
-
-    80% {
-        transform: rotate3d(10, 10, 10, 50deg) scale(1);
-    }
-
-  }
-
-  
