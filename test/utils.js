@@ -26,24 +26,4 @@ export function resultDisplay(rightAnswers) {
 
 }
 
-let rightAnswers = 0;
 
-export function userAnswer() {
-
-
-    const firstAnswer = prompt('Was Redbeard the greatest pirate of his time?');
-
-    if (countsAsYes(firstAnswer));
-    rightAnswers++;
-
-    const secondAnswer = prompt('Was the booty hidden in the Statue of Liberty?');
-
-    if (!countsAsYes(secondAnswer));
-    rightAnswers++;
-
-    const thirdAnswer = prompt('Was Hook considered the greatest pirate movie by RedBeard?');
-
-    if (countsAsYes(thirdAnswer));
-    rightAnswers++;
-
-}
