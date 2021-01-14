@@ -1,4 +1,4 @@
-import { countsAsYes, percentage } from './utils.js';
+import { countsAsYes, percentage, resultDisplay } from './utils.js';
 
 
 const button1 = document.getElementById('quiz-button');
@@ -32,19 +32,7 @@ button1.addEventListener('click', () => {
 
     const resultString = `Hooray ${firstName} ${lastName} yee got ${rightAnswers} correct! That be ${percentage(rightAnswers, totalAnswers)} percent`;
 
-    if (rightAnswers === 3){
-        storyBox.classList.add('light-green');
-        storyBox.style.fontFamily = 'helvetica';
-
-    }
-    
-    else if (rightAnswers === 2){
-        storyBox.classList.add('green-sheen');
-    }
-    
-    else {
-        storyBox.classList.add('dark-purple');
-    }
+    resultDisplay(rightAnswers);
 
     storyBox.textContent = (resultString);
 
