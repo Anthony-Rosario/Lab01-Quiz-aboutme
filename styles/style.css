@@ -52,7 +52,7 @@ header {
     font-size: 35px;
     justify-content: center;
     text-align: center;
-    font-family: 'treasuremapmedium';
+    font-family: 'New Rocker', cursive;
 }
 
 .img-flag {
@@ -73,7 +73,7 @@ header {
 }
 
 #story-results {
-    font-family: 'treasuremapmedium';
+    font-family: 'New Rocker', cursive;
     margin: 1rem;
 }
 
@@ -83,8 +83,8 @@ header {
     justify-content: center;
     background-color: black;
     color: rgb(151, 33, 33);
-    font-family: 'treasuremapmedium';
-    font-size: small;
+    font-family: 'New Rocker', cursive;
+    font-size: 15px;
     -moz-border-radius-topleft: 90px;
     -webkit-border-top-left-radius: 90px;
     border-top-left-radius: 90px;
@@ -117,7 +117,7 @@ h1 {
     margin-top: 1.75rem;
     display: flex;
     flex-direction: column;
-    font-size: medium;
+    font-size: large;
 }
 
 li {
